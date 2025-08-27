@@ -1,0 +1,17 @@
+numpy
+pandas
+scikit-learn
+lightgbm
+xgboost
+imbalanced-learn
+matplotlib
+seaborn
+shap
+scikit-plot
+optuna
+mlflow
+requests
+openpyxl
+joblib
+streamlit
+evidently
