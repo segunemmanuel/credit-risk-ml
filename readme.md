@@ -1,6 +1,6 @@
 # Credit Risk ML
 
-Production-minded credit-risk modeling pipeline for tabular applicant data.  
+Production-minded credit-risk modeling pipeline for tabular applicant data.
 Covers model training, scoring new applicants, generating explainability (SHAP) plots, and saving artifacts for downstream use.
 
 ---
@@ -80,8 +80,8 @@ python make_shap.py
 - Loads the saved model from `models/`
 - Produces global and local SHAP visualizations in `reports/figures/`
 
-> **Note:**  
-> If you see `No module named 'sklearn'`, ensure your venv is active and dependencies are installed.  
+> **Note:**
+> If you see `No module named 'sklearn'`, ensure your venv is active and dependencies are installed.
 > Large SHAP computations can be memory-intensive; start with a sample if needed.
 
 ---
@@ -163,7 +163,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Ensure `scikit-learn`, `pandas`, `numpy`, and `shap` are present.  
+Ensure `scikit-learn`, `pandas`, `numpy`, and `shap` are present.
 For SHAP plots, `matplotlib` is also required.
 
 ---
@@ -176,11 +176,6 @@ On the held-out validation set:
 - **PR-AUC:** 0.544
 - **Brier score:** 0.136
 - **KS statistic:** 0.420
-
-<p align="center">
-  <img src="reports/figures/roc_curve.png" alt="ROC Curve" width="400"/>
-  <img src="reports/figures/pr_curve.png" alt="PR Curve" width="400"/>
-</p>
 
 <p align="center">
   <img src="reports/figures/shap_summary.png" alt="SHAP Summary Plot" width="500"/>
