@@ -3,7 +3,6 @@
 Production-minded credit-risk modeling pipeline for tabular applicant data.
 Covers model training, scoring new applicants, generating explainability (SHAP) plots, and saving artifacts for downstream use.
 
----
 
 ## ✨ Features
 
@@ -14,7 +13,6 @@ Covers model training, scoring new applicants, generating explainability (SHAP) 
 - **Reproducible environments:** Managed with `requirements.txt`
 - **Artifacts versioned:** Models in `models/`, visual outputs in `reports/figures/`
 
----
 
 ## 🗂️ Repository Structure
 
